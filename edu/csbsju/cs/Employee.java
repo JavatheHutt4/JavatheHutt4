@@ -33,7 +33,6 @@ public class Employee
    public void raiseSalary(double byDecimalValue)
    {
       double raise = salary * byDecimalValue;
-      salary += raise;
    }
 
    private String name;
